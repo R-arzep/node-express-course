@@ -42,7 +42,7 @@ app.post('/login',Express.json() ,(req, res) =>
             {
                 success:true,
                 message: 'password and username match!',
-                token: 'Encrypted token goes here'
+                token: 'Encrypted token goes'
             });
     }
     else
